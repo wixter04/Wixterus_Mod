@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "wixterus:raw_wixterus"
+  },
+  "result": "wixterus:wixterus",
+  "experience": 35,
+  "cookingtime": 200
+}

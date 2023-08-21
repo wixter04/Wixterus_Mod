@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "wixterus:block/wixterus_block" }
+  }
+}

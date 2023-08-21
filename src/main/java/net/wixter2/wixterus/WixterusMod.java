@@ -17,8 +17,9 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.wixter2.wixterus.block.ModBlocks;
 import net.wixter2.wixterus.item.ModCreativeModeTab;
-import net.wixter2.wixterus.item.ModItem;
+import net.wixter2.wixterus.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -34,7 +35,8 @@ public class WixterusMod
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModCreativeModeTab.register(modEventBus);
 
-        ModItem.register(modEventBus);
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -50,8 +52,8 @@ public class WixterusMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItem.RAW_WIXTERUS);
-            event.accept(ModItem.WIXTERUS);
+            event.accept(ModItems.RAW_WIXTERUS);
+            event.accept(ModItems.WIXTERUS);
         }
 
     }

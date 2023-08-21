@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "wixterus:raw_wixterus"
+  },
+  "result": "wixterus:wixterus",
+  "experience": 50,
+  "cookingtime": 100
+}
