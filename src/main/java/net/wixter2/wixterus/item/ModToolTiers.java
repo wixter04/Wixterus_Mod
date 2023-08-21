@@ -13,7 +13,7 @@ import java.util.List;
 
 public class ModToolTiers {
     public static  final Tier WIXTERUS = TierSortingRegistry.registerTier(
-            new ForgeTier(5,2400,1.6f ,5 , 25 ,
+            new ForgeTier(5,2400,6,5 , 25 ,
                     ModTags.Blocks.NEED_WIXTERUS_TOOL , () -> Ingredient.of(ModItems.WIXTERUS.get())),
             new ResourceLocation(WixterusMod.MOD_ID , "wixterus") , List.of(Tiers.NETHERITE), List.of()
     );

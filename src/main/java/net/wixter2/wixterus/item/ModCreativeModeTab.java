@@ -23,6 +23,8 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.RAW_WIXTERUS.get());
                         pOutput.accept(ModItems.WIXTERUS_BLADE.get());
                         pOutput.accept(ModItems.WIXTERUS_PICKAXE.get());
+                        pOutput.accept(ModItems.WIXTERUS_AXE.get());
+                        pOutput.accept(ModItems.WIXTERUS_SHOVEL.get());
 
                     })
                     .build());
