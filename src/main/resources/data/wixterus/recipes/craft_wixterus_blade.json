@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "wixterus:wixterus"
+    },
+    "S": {
+      "item" : "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#",
+    "#",
+    "S"
+  ],
+  "result": {
+    "item": "wixterus:wixterus_blade"
+  }
+}
