@@ -21,6 +21,8 @@ public class ModCreativeModeTab {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.WIXTERUS.get());
                         pOutput.accept(ModItems.RAW_WIXTERUS.get());
+                        pOutput.accept(ModItems.WIXTERUS_BLADE.get());
+                        pOutput.accept(ModItems.WIXTERUS_PICKAXE.get());
 
                     })
                     .build());
