@@ -17,11 +17,19 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_WIXTERUS = ITEMS.register("raw_wixterus",
             ()-> new Item(new Item.Properties()));
 
+    public  static  final RegistryObject<SwordItem> WIXTERUS_BLADE = ITEMS.register("wixterus_blade",
+            () -> new SwordItem(ModToolTiers.WIXTERUS, 4 , 2, new Item.Properties()));
+
+    public static final RegistryObject<PickaxeItem> WIXTERUS_PICKAXE = ITEMS.register("wixterus_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.WIXTERUS, 1 , 1,new Item.Properties()));
 
 
+    public  static  final RegistryObject<ShovelItem> WIXTERUS_SHOVEL = ITEMS.register("wixterus_shovel" ,
+            () -> new ShovelItem(ModToolTiers.WIXTERUS, 7 , 2 , new Item.Properties()));
 
 
-
+    public static final RegistryObject<AxeItem> WIXTERUS_AXE = ITEMS.register("wixterus_axe ",
+            () -> new AxeItem(ModToolTiers.WIXTERUS,0,0,new Item.Properties()));
 
 
     public  static void register(IEventBus eventBus){
