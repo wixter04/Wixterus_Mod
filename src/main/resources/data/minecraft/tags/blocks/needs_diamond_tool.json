@@ -1,4 +1,5 @@
 {
+  "replace" : false,
   "values" : [
     "wixterus:wixterus_block",
     "wixterus:deepslate_wixterus_ore",
