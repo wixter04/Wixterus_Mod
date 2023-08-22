@@ -5,7 +5,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.wixter2.wixterus.ArmorMaterial;
 import net.wixter2.wixterus.WixterusMod;
+import net.wixter2.wixterus.util.WixterusModTier;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -34,9 +36,17 @@ public class ModItems {
     public static final RegistryObject<AxeItem> WIXTERUS_AXE = ITEMS.register("wixterus_axe",
             () -> new AxeItem(WixterusModTier.WIXTERUS,11,-3,new Item.Properties().defaultDurability(2249)));
 
+    public static final RegistryObject<ArmorItem> WIXTERUS_HELMET = ITEMS.register("wixterus_helmet",
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.HELMET , new Item.Properties()));
 
+    public static final RegistryObject<ArmorItem> WIXTERUS_CHESTPLATE = ITEMS.register("wixterus_chestplate",
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.CHESTPLATE , new Item.Properties()));
 
+    public static final RegistryObject<ArmorItem> WIXTERUS_LEGGINGS = ITEMS.register("wixterus_leggings",
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.LEGGINGS , new Item.Properties()));
 
+    public static final RegistryObject<ArmorItem> WIXTERUS_BOOTS = ITEMS.register("wixterus_boots",
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.BOOTS , new Item.Properties()));
     public  static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

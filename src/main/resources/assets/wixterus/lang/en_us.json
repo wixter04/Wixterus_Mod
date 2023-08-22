@@ -8,5 +8,10 @@
   "item.wixterus.wixterus_blade" : "Wixterus Blade",
   "item.wixterus.wixterus_pickaxe" : "Wixterus Pickaxe"
 ,  "item.wixterus.wixterus_axe" : "Wixterus Axe"
- , "item.wixterus.wixterus_shovel" : "Wixterus Shovel"
+ , "item.wixterus.wixterus_shovel" : "Wixterus Shovel",
+  "item.wixterus.wixterus_helmet" : "wixterus helmet",
+  "item.wixterus.wixterus_chestplate" : "Wixterus Chestplate",
+  "item.wixterus.wixterus_leggings" : "Wixterus Leggings",
+  "item.wixterus.wixterus_boots" : "Wixterus Boots"
+
 }

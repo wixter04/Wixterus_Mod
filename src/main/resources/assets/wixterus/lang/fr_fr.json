@@ -8,5 +8,9 @@
   "item.wixterus.wixterus_blade" : "Lame de wixterus",
   "item.wixterus.wixterus_pickaxe" : "Pioche en wixterus"
 ,  "item.wixterus.wixterus_axe" : "Hache en wixterus"
-, "item.wixterus.wixterus_shovel" : "Pelle en wixterus"
+, "item.wixterus.wixterus_shovel" : "Pelle en wixterus",
+  "item.wixterus.wixterus_helmet" : "Casque en wixterus",
+  "item.wixterus.wixterus_chestplate" : "Plastron en wixterus",
+  "item.wixterus.wixterus_leggings" : "Jambière en wixterus",
+  "item.wixterus.wixterus_boots" : "Botte en wixterus"
 }
