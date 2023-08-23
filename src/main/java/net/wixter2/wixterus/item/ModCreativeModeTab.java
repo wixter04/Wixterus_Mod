@@ -25,6 +25,10 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.WIXTERUS_PICKAXE.get());
                         pOutput.accept(ModItems.WIXTERUS_AXE.get());
                         pOutput.accept(ModItems.WIXTERUS_SHOVEL.get());
+                        pOutput.accept(ModItems.WIXTERUS_BOOTS.get());
+                        pOutput.accept(ModItems.WIXTERUS_HELMET.get());
+                        pOutput.accept(ModItems.WIXTERUS_CHESTPLATE.get());
+                        pOutput.accept(ModItems.WIXTERUS_LEGGINGS.get());
 
                     })
                     .build());
