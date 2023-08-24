@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.wixter2.wixterus.WixterusMod;
+import net.wixter2.wixterus.block.ModBlocks;
 
 
 public class ModCreativeModeTab {
@@ -29,6 +30,9 @@ public class ModCreativeModeTab {
                         pOutput.accept(ModItems.WIXTERUS_HELMET.get());
                         pOutput.accept(ModItems.WIXTERUS_CHESTPLATE.get());
                         pOutput.accept(ModItems.WIXTERUS_LEGGINGS.get());
+                        pOutput.accept(ModBlocks.WIXTERUS_BLOCK.get());
+                        pOutput.accept(ModBlocks.WIXTERUS_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_WIXTERUS_ORE.get());
 
                     })
                     .build());

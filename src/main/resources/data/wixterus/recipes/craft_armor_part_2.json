@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wixterus:wixterus"
+    }
+  },
+  "result": {
+    "item": "wixterus:wixterus_chestplate",
+    "count": 1
+  }
+}

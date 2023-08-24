@@ -1,0 +1,6 @@
+{
+  "type" : "forge:add_features",
+  "features" : "wixterus:big_wixterus_veins",
+  "biomes" : "#minecraft:is_overworld",
+  "step" : "underground_ores"
+}

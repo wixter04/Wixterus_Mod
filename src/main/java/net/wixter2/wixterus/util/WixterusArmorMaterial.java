@@ -24,7 +24,7 @@ public class WixterusArmorMaterial implements ArmorMaterial {
         this.enchantingValue = enchantingValue;
         soundEvent = equipSound;
         this.repairMaterial = repairMaterial;
-        this.name = WixterusMod.MOD_ID +":" +  name;
+        this.name = name;
         this.toughness = toughness;
         this.knockbackResistance = knockbackResistance;
     }
