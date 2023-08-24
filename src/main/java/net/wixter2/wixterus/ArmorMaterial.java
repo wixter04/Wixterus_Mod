@@ -15,6 +15,6 @@ public class ArmorMaterial {
             () -> Ingredient.of(ModItems.WIXTERUS::get),
             "wixterus",
             4f,
-            1.5f
+            0.2f
     );
 }
