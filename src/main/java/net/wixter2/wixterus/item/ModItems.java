@@ -20,7 +20,7 @@ public class ModItems {
             ()-> new Item(new Item.Properties()));
 
     public  static  final RegistryObject<SwordItem> WIXTERUS_BLADE = ITEMS.register("wixterus_blade",
-            () -> new SwordItem(WixterusModTier.WIXTERUS, 9 , -2.3f, new Item.Properties()));
+            () -> new SwordItem(WixterusModTier.WIXTERUS, 9 , -2.4f, new Item.Properties()));
     public  static  final RegistryObject<SwordItem> WIXTERUS_SWORD = ITEMS.register("wixterus_sword",
             () -> new SwordItem(WixterusModTier.WIXTERUS, 1, -2.4f, new Item.Properties()));
 

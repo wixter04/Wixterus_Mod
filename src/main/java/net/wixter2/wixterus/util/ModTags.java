@@ -10,12 +10,12 @@ import net.wixter2.wixterus.WixterusMod;
 
 public class ModTags {
     public static class Blocks{
-        public static final TagKey<Block> NEED_WIXTERUS_TOOL = tag("need_wixterus_tool");
+        public static final TagKey<Block> NEED_WIXTERUS_TOOL = tag();
 
 
 
-        private static TagKey<Block>tag(String name) {
-            return BlockTags.create(new ResourceLocation(WixterusMod.MOD_ID  , name));
+        private static TagKey<Block>tag() {
+            return BlockTags.create(new ResourceLocation(WixterusMod.MOD_ID  , "need_wixterus_tool"));
         }
     }
 

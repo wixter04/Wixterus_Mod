@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 25,
+          "name": "minecraft:chests/village/village_plains_house"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 75,
+          "name": "minecraft:chests/village/village_weaponsmith"
+        }
+      ]
+    }
+  ]
+}
