@@ -12,5 +12,6 @@
   "item.wixterus.wixterus_helmet" : "Casque en wixterus",
   "item.wixterus.wixterus_chestplate" : "Plastron en wixterus",
   "item.wixterus.wixterus_leggings" : "Jambière en wixterus",
-  "item.wixterus.wixterus_boots" : "Botte en wixterus"
+  "item.wixterus.wixterus_boots" : "Botte en wixterus",
+  "tooltip.wixterus.wixterus_helmet.tooltip" : "Lorsqu'elle est combinée, l'armure donne à son porteur des pouvoirs incroyables"
 }

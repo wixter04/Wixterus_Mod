@@ -12,6 +12,7 @@
   "item.wixterus.wixterus_helmet" : "Wixterus helmet",
   "item.wixterus.wixterus_chestplate" : "Wixterus Chestplate",
   "item.wixterus.wixterus_leggings" : "Wixterus Leggings",
-  "item.wixterus.wixterus_boots" : "Wixterus Boots"
+  "item.wixterus.wixterus_boots" : "Wixterus Boots",
+  "tooltip.wixterus.wixterus_helmet.tooltip" : "when combined the armor gives its wearer incredible powers"
 
 }
