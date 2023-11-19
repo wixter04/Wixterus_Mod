@@ -1,10 +1,11 @@
 {
   "item.wixterus.raw_wixterus" : "Wixterus brut",
   "item.wixterus.wixterus" : "Wixterus",
-  "creativetab.wixterus_tab" : "Wixterus  tab",
+  "creativetab.wixterus_tab" : "Wixterus Tab",
   "block.wixterus.wixterus_block" : "Block de wixterus",
   "block.wixterus.wixterus_ore" : "Minerais de wixterus",
   "block.wixterus.deepslate_wixterus_ore" : "Minerais de wixterus des abimes",
+  "item.wixterus.wixterus_sword" : "épée de Test",
   "item.wixterus.wixterus_blade" : "Lame de wixterus",
   "item.wixterus.wixterus_pickaxe" : "Pioche en wixterus"
 ,  "item.wixterus.wixterus_axe" : "Hache en wixterus"
@@ -13,5 +14,6 @@
   "item.wixterus.wixterus_chestplate" : "Plastron en wixterus",
   "item.wixterus.wixterus_leggings" : "Jambière en wixterus",
   "item.wixterus.wixterus_boots" : "Botte en wixterus",
-  "tooltip.wixterus.wixterus_helmet.tooltip" : "Lorsqu'elle est combinée, l'armure donne à son porteur des pouvoirs incroyables"
+  "tooltip.wixterus.ArmorItem.tooltip.ShiftDown" : "Lorsqu'elle est combinée, l'armure donne à son porteur des pouvoirs incroyables",
+  "tooltip.wixterus.ArmorItem.tooltip" : "Appuyez sur Shift pour plus d'informations"
 }

@@ -1,10 +1,11 @@
 {
   "item.wixterus.raw_wixterus" : "Raw Wixterus",
   "item.wixterus.wixterus" : "Wixterus",
-  "creativetab.wixterus_tab" : "Wixterus  tab",
+  "creativetab.wixterus_tab" : "Wixterus Tab",
   "block.wixterus.wixterus_block" : "Wixterus block",
   "block.wixterus.wixterus_ore" : "Wixterus Ore",
   "block.wixterus.deepslate_wixterus_ore" : "Deepslate Wixterus Ore",
+  "item.wixterus.wixterus_sword" : "test Sword",
   "item.wixterus.wixterus_blade" : "Wixterus Blade",
   "item.wixterus.wixterus_pickaxe" : "Wixterus Pickaxe"
 ,  "item.wixterus.wixterus_axe" : "Wixterus Axe"
@@ -13,6 +14,7 @@
   "item.wixterus.wixterus_chestplate" : "Wixterus Chestplate",
   "item.wixterus.wixterus_leggings" : "Wixterus Leggings",
   "item.wixterus.wixterus_boots" : "Wixterus Boots",
-  "tooltip.wixterus.wixterus_helmet.tooltip" : "when combined the armor gives its wearer incredible powers"
+  "tooltip.wixterus.ArmorItem.tooltip" : "Press Shift for more information",
+  "tooltip.wixterus.ArmorItem.tooltip.ShiftDown" : "when combined the armor gives its wearer incredible powers"
 
 }

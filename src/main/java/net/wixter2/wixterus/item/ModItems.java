@@ -7,7 +7,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.wixter2.wixterus.ArmorMaterial;
 import net.wixter2.wixterus.WixterusMod;
-import net.wixter2.wixterus.item.custom.ModArmorItem;
 import net.wixter2.wixterus.util.WixterusModTier;
 
 public class ModItems {
@@ -34,13 +33,13 @@ public class ModItems {
 
 
     public static final RegistryObject<ArmorItem> WIXTERUS_HELMET = ITEMS.register("wixterus_helmet",
-            () -> new ModArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.HELMET , new Item.Properties()));
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.HELMET , new Item.Properties()));
     public static final RegistryObject<ArmorItem> WIXTERUS_CHESTPLATE = ITEMS.register("wixterus_chestplate",
-            () -> new ModArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.CHESTPLATE , new Item.Properties()));
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.CHESTPLATE , new Item.Properties()));
     public static final RegistryObject<ArmorItem> WIXTERUS_LEGGINGS = ITEMS.register("wixterus_leggings",
-            () -> new ModArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.LEGGINGS , new Item.Properties()));
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.LEGGINGS , new Item.Properties()));
     public static final RegistryObject<ArmorItem> WIXTERUS_BOOTS = ITEMS.register("wixterus_boots",
-            () -> new ModArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.BOOTS , new Item.Properties()));
+            () -> new ArmorItem(ArmorMaterial.WIXTERUS_ARMOR_MATERIAL,ArmorItem.Type.BOOTS , new Item.Properties()));
     public  static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
