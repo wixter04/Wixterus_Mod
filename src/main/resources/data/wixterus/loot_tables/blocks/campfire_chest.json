@@ -49,6 +49,15 @@
           "name": "minecraft:stick"
         }
       ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:charcoal"
+        }
+      ]
     }
   ]
 }

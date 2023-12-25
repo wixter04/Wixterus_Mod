@@ -1,0 +1,12 @@
+{
+  "structures": [{
+    "structure": "wixterus:campfire",
+    "weight": 1
+  }],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 25,
+    "separation": 12,
+    "salt": 1642874578
+  }
+}
