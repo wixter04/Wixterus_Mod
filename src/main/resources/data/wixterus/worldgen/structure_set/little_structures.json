@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wixterus:little_structures",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 10,
+    "separation": 5,
+    "salt": 1673829148
+  }
+}
