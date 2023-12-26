@@ -10,7 +10,7 @@
     }
   },
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "wixterus:small_gens/campfire",
@@ -19,7 +19,7 @@
       }
     },
     {
-      "weight": 2,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "wixterus:small_gens/iron_and_coal_stone_structure",
@@ -35,37 +35,14 @@
         "processors": "minecraft:empty"
       }
     },{
-      "weight": 2,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "wixterus:small_gens/old_house_1",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "wixterus:small_gens/old_house_2",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "wixterus:small_gens/old_house_3",
-        "projection": "rigid",
-        "processors": "minecraft:empty"
-      }
-    },{
-      "weight": 2,
-      "element": {
-        "element_type": "minecraft:single_pool_element",
-        "location": "wixterus:small_gens/old_house_4",
+        "location": "wixterus:small_gens/gold_stone_structure",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
     }
+
   ]
 }
