@@ -1,12 +1,12 @@
 {
   "structures": [{
-    "structure": "wixterus:small_gens",
+    "structure": "wixterus:old_houses",
     "weight": 1
   }],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 20,
-    "separation": 10,
-    "salt": 1642874578
+    "spacing": 15,
+    "separation": 5,
+    "salt": 1472874818
   }
 }
