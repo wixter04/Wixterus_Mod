@@ -1,6 +1,6 @@
 {
   "structures": [{
-    "structure": "wixterus:campfire",
+    "structure": "wixterus:small_gens",
     "weight": 1
   }],
   "placement": {
