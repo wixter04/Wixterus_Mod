@@ -1,0 +1,23 @@
+{
+  "fallback" : "minecraft:empty",
+  "elements" : [
+  {
+    "weight": 1,
+    "element": {
+      "element_type": "minecraft:single_pool_element",
+      "location": "wixterus:random_shit/enchantment_tower",
+      "projection": "rigid",
+      "processors": "minecraft:empty"
+    }
+  },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wixterus:random_shit/wixter2_head_status",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
+    }
+]
+}

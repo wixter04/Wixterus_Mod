@@ -1,24 +1,23 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
+    "minecraft:snowy_plains",
+    "minecraft:plains",
+    "minecraft:savanna_plateau",
+    "minecraft:sunflower_plains",
     "minecraft:birch_forest",
-    "minecraft:dark_forest",
-    "minecraft:flower_forest",
-    "minecraft:forest",
     "minecraft:windswept_forest",
-    "minecraft:old_growth_birch_forest",
-    "minecraft:plains"
-
+    "minecraft:windswept_hills"
   ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
-  "start_pool": "wixterus:small_gens",
+  "start_pool": "wixterus:random_shit",
   "size": 1,
   "start_height": {
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "max_distance_from_center": 50,
+  "max_distance_from_center": 70,
   "use_expansion_hack": false
 }

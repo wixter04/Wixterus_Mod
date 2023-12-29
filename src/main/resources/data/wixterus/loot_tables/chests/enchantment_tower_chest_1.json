@@ -1,0 +1,88 @@
+{
+    "type": "minecraft:chest",
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:book",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 3,
+                        "max": 8
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:book",
+                    "functions": [{
+                        "function": "minecraft:enchant_randomly",
+                        "enchantments": [
+                            "minecraft:efficiency",
+                            "minecraft:sharpness",
+                            "minecraft:power",
+                            "minecraft:punch",
+                            "minecraft:aqua_affinity",
+                            "minecraft:protection",
+                            "minecraft:unbreaking"
+                        ]
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:book",
+                    "functions": [{
+                        "function": "minecraft:enchant_randomly",
+                        "enchantments": [
+                            "minecraft:infinity",
+                            "minecraft:flame",
+                            "minecraft:fire_aspect",
+                            "minecraft:frost_walker",
+                            "minecraft:fortune",
+                            "minecraft:mending"
+                        ]
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:enchanted_golden_apple"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:paper",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 9,
+                        "max": 15
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:bookshelf",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }]
+            }]
+        }
+    ]
+}
