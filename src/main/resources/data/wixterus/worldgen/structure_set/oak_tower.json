@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wixterus:oak_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1723635723,
+    "spacing": 13,
+    "separation": 10
+  }
+}

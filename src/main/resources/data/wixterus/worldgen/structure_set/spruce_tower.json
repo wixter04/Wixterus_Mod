@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wixterus:spruce_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1716447098,
+    "spacing": 13,
+    "separation": 10
+  }
+}

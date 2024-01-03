@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "wixterus:birch_tower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1472481818,
+    "spacing": 13,
+    "separation": 10
+  }
+}
