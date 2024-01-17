@@ -11,13 +11,22 @@
     }
   },
     {
-      "weight": 2,
+      "weight": 3,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "wixterus:random_shit/wixter2_head_status",
         "projection": "rigid",
         "processors": "minecraft:empty"
       }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "wixterus:random_shit/medium_house_1",
+        "projection": "rigid",
+        "processors": "minecraft:empty"
+      }
     }
-]
+ ]
 }

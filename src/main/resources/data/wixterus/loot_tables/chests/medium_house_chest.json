@@ -1,0 +1,125 @@
+{
+    "pools": [{
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:oak_sapling",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 3
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 10,
+                    "name": "minecraft:oak_log",
+                    "functions": [{
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 1,
+                            "max": 5
+                        },
+                        "add": true
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "wixterus:wixterus"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:oak_planks",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 9
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:bread",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 0,
+                        "max": 4
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                "type": "minecraft:item",
+                "name": "minecraft:apple",
+                "functions": [{
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "min": 1,
+                        "max": 5
+                    }
+                }]
+            }]
+        },
+        {
+            "rolls": 1,
+            "entries": [{
+                    "type": "minecraft:item",
+                    "weight": 3,
+                    "name": "minecraft:emerald",
+                    "functions": [{
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:iron_ingot",
+                    "functions": [{
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 0,
+                            "max": 4
+                        }
+                    }]
+                },
+                {
+                    "type": "minecraft:item",
+                    "weight": 2,
+                    "name": "minecraft:gold_ingot",
+                    "functions": [{
+                        "function": "minecraft:set_count",
+                        "count": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    }]
+                }
+            ],
+            "conditions": [{
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+            }]
+        }
+    ]
+}
