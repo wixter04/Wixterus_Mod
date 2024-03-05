@@ -1,12 +1,12 @@
 {
   "structures": [{
-    "structure": "wixterus:old_houses",
+    "structure": "wixterus:pile_of_oak",
     "weight": 1
   }],
   "placement": {
     "type": "minecraft:random_spread",
-    "spacing": 16,
-    "separation": 10,
-    "salt": 1472874818
+    "salt": 1421221838,
+    "spacing": 14,
+    "separation": 8
   }
 }
