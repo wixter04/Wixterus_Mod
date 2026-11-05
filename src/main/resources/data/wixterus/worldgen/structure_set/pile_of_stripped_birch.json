@@ -1,0 +1,12 @@
+{
+  "structures": [{
+    "structure": "wixterus:pile_of_stripped_birch",
+    "weight": 1
+  }],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1447241838,
+    "spacing": 14,
+    "separation": 8
+  }
+}
